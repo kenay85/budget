@@ -19,5 +19,5 @@ Desktop app for managing personal finances:
 python -m venv .venv
 source .venv/bin/activate           # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
-python budget_app.py
+python budget0.2.py
 
