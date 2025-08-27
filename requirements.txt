@@ -1,0 +1,4 @@
+tkcalendar
+matplotlib
+cryptography
+
