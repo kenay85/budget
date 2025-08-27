@@ -1,16 +1,23 @@
-# Domowy Budżet (Python + Tkinter)
+# Home Budget (Python + Tkinter)
 
-Aplikacja do zarządzania domowym budżetem:
-- logowanie użytkowników (haszowane hasła)
-- szyfrowanie plików CSV (cryptography)
-- transakcje cykliczne
-- planowanie budżetu
-- wykresy (matplotlib)
-- kalendarz (tkcalendar)
-- zmiana motywów (ttk themes)
+Desktop app for managing personal finances:
+- User login (SHA-256 password hashes)
+- Encrypted transactions (Fernet, binary file)
+- Recurring transactions (auto-append overdue)
+- Budget planning per category (limits)
+- Charts: pie, bar, line (matplotlib)
+- Calendar (tkcalendar)
+- Theme switching (ttk themes)
 
-## Instalacja
+## Requirements
+- Python 3.10+
+- Linux / Windows / macOS
+- **Ubuntu**: `sudo apt install python3-tk` (Tkinter runtime)
+
+## Setup
 ```bash
+python -m venv .venv
+source .venv/bin/activate           # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 python budget_app.py
 
