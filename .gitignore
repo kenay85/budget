@@ -1,0 +1,24 @@
+# Python / venv
+__pycache__/
+*.py[cod]
+.venv/
+env/
+venv/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# App data & secrets - DO NOT COMMIT
+users.json
+recurring.json
+budgets.csv
+transactions_temp.csv
+transactions_encrypted.bin
+secret.key
+
+# Misc
+*.log
+*.tmp
